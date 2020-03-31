@@ -1,5 +1,7 @@
 package com.prithvi.tech.tests;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -18,13 +20,19 @@ public class BaseClass {
 	
 	public static String environment = "default";
 	
+	public static Logger log = Logger.getLogger(BaseClass.class);
+	
 	@BeforeClass
 	public void setUp() {
+		System.setProperty("log.file", "automation_"+System.currentTimeMillis()+".log");
+		PropertyConfigurator.configure("log4j.properties");
+		log.info("Starting Test");
 		initBrowser(browserName);
 	}
 	
 	@AfterClass
 	public void tearDown() {
+		log.info("Ending Test");
 		closeSession();
 	}
 	

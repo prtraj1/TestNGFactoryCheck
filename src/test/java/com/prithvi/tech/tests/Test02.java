@@ -20,11 +20,13 @@ public class Test02 extends BaseClass {
 
 	@Test(dataProvider = "data")
 	public void testMt1(String txt) {
+		log.info("Test 02 Method 1");
 		System.out.println("Test02 Method 1 with param as " + txt);
 	}
 
-	@Test(enabled = false)
+	@Test
 	public void testMt2() {
+		log.info("Test 02 Method 2");
 		System.out.println("Test02 Method 2 with param as " + this.paramData);
 	}
 

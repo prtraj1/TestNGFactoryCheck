@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6916" started-at="2020-03-31T14:03:14 IST" finished-at="2020-03-31T14:03:20 IST">
+  <suite name="Suite" duration-ms="7133" started-at="2020-03-31T21:59:20 IST" finished-at="2020-03-31T21:59:27 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6885" started-at="2020-03-31T14:03:14 IST" finished-at="2020-03-31T14:03:20 IST">
+    <test name="Test" duration-ms="7108" started-at="2020-03-31T21:59:20 IST" finished-at="2020-03-31T21:59:27 IST">
       <class name="com.prithvi.tech.tests.Test02">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prithvi.tech.tests.Test02@6989da5e]" name="setUp" is-config="true" duration-ms="6773" started-at="2020-03-31T14:03:14 IST" finished-at="2020-03-31T14:03:20 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prithvi.tech.tests.Test02@3a52dba3]" name="setUp" is-config="true" duration-ms="6875" started-at="2020-03-31T21:59:20 IST" finished-at="2020-03-31T21:59:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testMt1(java.lang.String)[pri:0, instance:com.prithvi.tech.tests.Test02@6989da5e, instance params:[org.testng.TestRunner@3857f613]]" name="testMt1" duration-ms="4" started-at="2020-03-31T14:03:20 IST" data-provider="data" finished-at="2020-03-31T14:03:20 IST">
+        <test-method status="PASS" signature="testMt2()[pri:0, instance:com.prithvi.tech.tests.Test02@3a52dba3, instance params:[org.testng.TestRunner@38afe297]]" name="testMt2" duration-ms="26" started-at="2020-03-31T21:59:27 IST" finished-at="2020-03-31T21:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMt2 -->
+        <test-method status="PASS" signature="testMt1(java.lang.String)[pri:0, instance:com.prithvi.tech.tests.Test02@3a52dba3, instance params:[org.testng.TestRunner@38afe297]]" name="testMt1" duration-ms="26" started-at="2020-03-31T21:59:27 IST" data-provider="data" finished-at="2020-03-31T21:59:27 IST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMt1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prithvi.tech.tests.Test02@6989da5e]" name="tearDown" is-config="true" duration-ms="56" started-at="2020-03-31T14:03:20 IST" finished-at="2020-03-31T14:03:20 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prithvi.tech.tests.Test02@3a52dba3]" name="tearDown" is-config="true" duration-ms="151" started-at="2020-03-31T21:59:27 IST" finished-at="2020-03-31T21:59:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.prithvi.tech.tests.Test02 -->
     </test> <!-- Test -->
-    <test name="Test 2" duration-ms="1" started-at="2020-03-31T14:03:20 IST" finished-at="2020-03-31T14:03:20 IST">
+    <test name="Test 2" duration-ms="0" started-at="2020-03-31T21:59:27 IST" finished-at="2020-03-31T21:59:27 IST">
       <class name="com.prithvi.tech.tests.Test02">
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.prithvi.tech.tests.Test02@6989da5e]" name="quit" is-config="true" duration-ms="1251" started-at="2020-03-31T14:03:20 IST" finished-at="2020-03-31T14:03:22 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.prithvi.tech.tests.Test02@3a52dba3]" name="quit" is-config="true" duration-ms="583" started-at="2020-03-31T21:59:27 IST" finished-at="2020-03-31T21:59:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
