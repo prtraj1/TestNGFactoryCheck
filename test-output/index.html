@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,7 +107,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.prithvi.tech.tests.Test02" hash-for-method="testMt2">testMt2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.prithvi.tech.tests.Test02" hash-for-method="testMt2([, Rahul, 23, Odisha])">testMt2([, Rahul, 23, Odisha])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.prithvi.tech.tests.Test02" hash-for-method="testMt2([, Varun, 17, Delhi])">testMt2([, Varun, 17, Delhi])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.prithvi.tech.tests.Test02" hash-for-method="testMt2([, Abhijit, 9, WB])">testMt2([, Abhijit, 9, WB])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,9 +148,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testMt2">
-                  </a> <!-- testMt2 -->
+                  <a name="testMt2([, Rahul, 23, Odisha])">
+                  </a> <!-- testMt2([, Rahul, 23, Odisha]) -->
                   <span class="method-name">testMt2</span>
+                  <span class="parameters">([, Rahul, 23, Odisha])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMt2([, Varun, 17, Delhi])">
+                  </a> <!-- testMt2([, Varun, 17, Delhi]) -->
+                  <span class="method-name">testMt2</span>
+                  <span class="parameters">([, Varun, 17, Delhi])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMt2([, Abhijit, 9, WB])">
+                  </a> <!-- testMt2([, Abhijit, 9, WB]) -->
+                  <span class="method-name">testMt2</span>
+                  <span class="parameters">([, Abhijit, 9, WB])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,20 +236,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMt2')
 data.setCell(0, 2, 'com.prithvi.tech.tests.Test02')
-data.setCell(0, 3, 26);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testMt1')
 data.setCell(1, 2, 'com.prithvi.tech.tests.Test02')
-data.setCell(1, 3, 26);
+data.setCell(1, 3, 7);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMt2')
+data.setCell(2, 2, 'com.prithvi.tech.tests.Test02')
+data.setCell(2, 3, 7);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMt2')
+data.setCell(3, 2, 'com.prithvi.tech.tests.Test02')
+data.setCell(3, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 ms</span>
+              <span class="suite-total-time">Total running time: 26 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -254,20 +289,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testMt2</span>
-                <span class="method-start">6890 ms</span>
+                <span class="method-name">testMt1(DataFile)</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testMt1(DataFile)</span>
-                <span class="method-start">6890 ms</span>
+                <span class="method-name">testMt2([, Abhijit, 9, WB])</span>
+                <span class="method-start">255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMt2([, Varun, 17, Delhi])</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMt2([, Rahul, 23, Odisha])</span>
+                <span class="method-start">269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6925 ms</span>
+                <span class="method-start">282 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">quit</span>
-                <span class="method-start">7109 ms</span>
+                <span class="method-start">308 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
